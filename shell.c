@@ -10,9 +10,9 @@ int main(void)
 
 	while (1)
 	{
+		flash_prompt();
 		scan_command(command, sizeof(command));
 		enforce_command(command);
-		flash_prompt();
 	}
 
 	return (0);
