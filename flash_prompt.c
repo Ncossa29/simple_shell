@@ -4,5 +4,5 @@
  */
 void flash_prompt(void)
 {
-	nk_print("nk_shell$ ");
+	nk_print("nkshell$ ");
 }
