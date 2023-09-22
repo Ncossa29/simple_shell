@@ -12,7 +12,7 @@ void enforce_command(const char *command)
 	{
 		if (execlp(command, command, (char *)NULL) == -1)
 		{
-			perror("execlp");
+			perror("./hsh");
 			exit(EXIT_FAILURE);
 		}
 		exit(EXIT_SUCCESS);
